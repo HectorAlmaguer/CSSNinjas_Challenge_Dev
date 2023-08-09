@@ -1,0 +1,28 @@
+
+.card {
+    margin-bottom: 17px;
+}
+
+.card__title-devcommunity{
+    height:30px ;
+    margin: 10px 10px 2px 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card__anchor-text {
+    font-weight: 700;
+    cursor:pointer;
+    ;
+}
+
+.card__image { 
+    cursor:pointer;
+}
+
+
+.anchor-decoration {
+    text-decoration-line: none;
+}

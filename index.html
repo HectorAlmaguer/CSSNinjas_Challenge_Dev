@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DEV Community</title>
   <link rel="shortcut icon" href="./Images/icon_dev.png">
+  <link rel="stylesheet" href="./Styles/styles.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,9 @@
   <header>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <img class="" src="./Images/icon_dev.png" alt="Dev To">
+        <img class="btn burguer__aside__off d-md-none" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src="./Images/svg0.svg" alt="Menú">
+        <img class="icon__home__dev" src="./Images/icon_dev.png" alt="Dev To">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -33,12 +36,50 @@
   <div class="container">
     <div class="row">
       <aside>
-        <ul class="dropdown-menu">
-          <li><span class="dropdown-item-text">Dropdown item text</span></li>
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title title__burguer" id="offcanvasScrollingLabel">DEV Community</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body d-md-block">
+            <ul class="justify-content-start flex-grow-1 pe-3">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/casa.svg" alt="Home">Home</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/documento.svg" alt="listicon">Listings</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/micro╠üfono.svg" alt="microphoneicon"> Podcasts</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/video.svg" alt="videoicon"> Videos</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/etiqueta.svg" alt="tagicon"> Tags</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/foco.svg" alt="faqicon"> FAQ</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/compras.svg" alt="shopicon"> Forem Shop</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/corazon.svg" alt="hearticon"> Advertise on DEV</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/dev.svg" alt="devicon"> About</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/trompetilla.svg" alt="soundicon">Contact</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/libro.svg" alt="bookicon"> Guides</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/pensando.svg" alt="faceicon"> Software comparisons</a>
+              </div>
+              <div class="list-group">
+                <strong class="list-group-item text-dark border-0">Other</strong>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/pulgar.svg">Code of Conduct</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/cara-lentes.svg">Privacy Policy</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="./Images/icons/ojos.svg">Terms of Use</a>
+              </div>
+          </div>
       </aside>
       <main>
         <div class="card text-center">

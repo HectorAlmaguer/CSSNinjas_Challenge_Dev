@@ -31,9 +31,11 @@
       </div>
     </nav>
   </header>
+
   <div class="container">
     <div class="row">
-      <aside>
+
+      <aside class="col-3 d-none d-md-block bg-success">
         <ul class="dropdown-menu">
           <li><span class="dropdown-item-text">Dropdown item text</span></li>
           <li><a class="dropdown-item" href="#">Action</a></li>
@@ -42,7 +44,7 @@
         </ul>
       </aside>
 
-      <main class="card__container">
+      <main class="card__container col-12 col-md-9 col-lg-6">
         <div class="card text-center border-0">
           <div class="card-header">
             <ul class="nav nav-pills card-header-pills">
@@ -62,7 +64,7 @@
               <a href="https://www.google.com/" id="enlace"></a>
               <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--xrBVL0I0--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/he9jeudt1gebya1cahz3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <div class="card__top d-flex flex-wrap">
+                <div class="card__top d-flex">
                   <div class="card__top-meta">
                     <div class="card__top-autor-pic">
                       <a href="" class="card__top-autor-avatar">
@@ -72,12 +74,13 @@
                   </div>
 
                   <div class="card__top-info">
-                    <a class="card__top-name" href=""><strong>Srikanth</strong> for <strong>svemaraju.github.io</strong></a>
+                    <p class="card__top-name"><strong>Srikanth</strong> for <strong>svemaraju.github.io</strong></p>
                     <p class="card__top-date">Aug 3 (5 days ago)</p>
                   </div>
                 </div>
 
                 <h2 class="card-title">Start by writing messy code</h2>
+
                 <ul class="card__tags d-flex flex-wrap list-unstyled">
                   <li class="card__tag me-2">#programming </li>
                   <li class="card__tag me-2">#webdev</li>
@@ -85,19 +88,21 @@
                   <li class="card__tag me-2">#career</li>
                 </ul>
 
+              <div class="interaction__container d-flex justify-content-between">
+
                 <ul class="card__reactions d-flex flex-wrap list-unstyled">
-                  <li class="card__reaction me-2"><img src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" alt=""></li>
-                  <li class="card__reaction me-2"><img src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" alt=""></li>
-                  <li class="card__reaction me-2"><img src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" alt=""></li>
-                  <li class="card__reaction me-2"><img src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" alt=""></li>
-                  <li class="card__reaction me-2"><img src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" alt=""></li>
-                  <li class="card__reaction-text me-2">46 reactions</li>
+                  <li class="card__reaction"><img src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" alt=""></li>
+                  <li class="card__reaction"><img src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" alt=""></li>
+                  <li class="card__reaction"><img src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" alt=""></li>
+                  <li class="card__reaction"><img src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" alt=""></li>
+                  <li class="card__reaction"><img src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" alt=""></li>
+                  <li class="card__reaction-text d-none d-md-block">46 reactions</li>
                 </ul>
 
                 <ul class="card__coments d-flex flex-wrap list-unstyled">
                   <li class="card__coment-icon"><img src="./Images/coments.svg" alt=""></li>
                   <li class="card__coment-number">5</li>
-                  <li class="card__coment-text">Comments</li>
+                  <li class="card__coment-text d-none d-md-block">Comments</li>
                 </ul>
 
                 <ul class="card__read-save d-flex flex-wrap list-unstyled">
@@ -105,38 +110,14 @@
                   <li class="card__save"><img src="./Images/save-post.svg" alt=""></li>
                 </ul>
               </div>
+
+              </div>
             </div>
           </div>
         </div>
-
-        
-
-        <!-- <div class="card text-center">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="true" href="#">Active</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div> -->
       </main>
-      <aside>
+
+      <aside class="col-3 d-none d-lg-block bg-success ">
         <div class="card">
           <div class="card-header">
             Featured

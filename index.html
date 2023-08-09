@@ -16,6 +16,7 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/styles.css">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
         </ul>
       </aside>
 
-      <main>
+      <main class="card__container">
         <div class="card text-center border-0">
           <div class="card-header">
             <ul class="nav nav-pills card-header-pills">
@@ -57,26 +58,26 @@
             </ul>
           </div>
           <div class="card-body">
-            <div class="card mb-3">
+            <div class="card mb-3" id="resumen">
+              <a href="https://www.google.com/" id="enlace"></a>
               <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--xrBVL0I0--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/he9jeudt1gebya1cahz3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-
-                <div class="card__top">
+                <div class="card__top d-flex flex-wrap">
                   <div class="card__top-meta">
                     <div class="card__top-autor-pic">
                       <a href="" class="card__top-autor-avatar">
-                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--JayWOFF7--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/23695/129887f7-57e5-49b8-84ac-482361194daf.JPG" alt="" class="card__top-avatar-image">
+                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--JayWOFF7--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/23695/129887f7-57e5-49b8-84ac-482361194daf.JPG" alt="" class="card__top-avatar-image rounded-circle">
                       </a>
                     </div>
                   </div>
 
                   <div class="card__top-info">
-                    <a class="card__top-name" href="">Srikanth for svemaraju.github.io</a>
+                    <a class="card__top-name" href=""><strong>Srikanth</strong> for <strong>svemaraju.github.io</strong></a>
                     <p class="card__top-date">Aug 3 (5 days ago)</p>
                   </div>
                 </div>
 
-                <h5 class="card-title">Start by writing messy code</h5>
+                <h2 class="card-title">Start by writing messy code</h2>
                 <ul class="card__tags d-flex flex-wrap list-unstyled">
                   <li class="card__tag me-2">#programming </li>
                   <li class="card__tag me-2">#webdev</li>

@@ -3,6 +3,10 @@
 @import './styles.scss';
 @import './listings.scss';
 @import './sidebar.scss';
-@import './socialmedia.scss'
+@import './socialmedia.scss';
+
 .aside_title:hover { cursor: pointer;}
 
+body {
+    background-color: rgb(231, 227, 227); 
+}

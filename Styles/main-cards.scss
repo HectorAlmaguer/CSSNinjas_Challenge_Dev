@@ -27,12 +27,11 @@
 }
 
 .card__tag-color{
-    padding: 3px;
+    padding: 2.5px;
     color: #000;
 }
 
 .card__tag-color:hover{
-    border: solid .25px #AEB6BF ;
     border-radius: 6px;
     background-color: #F4F6F6;
 }
@@ -54,4 +53,22 @@
     cursor: pointer;
 }
 
+.card__coments{
+    padding: 2.5px;
+}
+.card__coments:hover{
+    border-radius: 5px;
+    background-color: #F4F6F6;
+    cursor: pointer;
+}
+
+.card__save{
+    align-items: center;
+    padding: 3.5px;
+}
+.card__save:hover{
+    border-radius: 5px;
+    background-color: #F4F6F6;
+    cursor: pointer;
+}
 

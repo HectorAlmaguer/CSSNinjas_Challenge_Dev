@@ -8,10 +8,11 @@
   <link rel="shortcut icon" href="./Images/icon_dev.png">
   <link rel="stylesheet" href="./Styles/styles.css">
   <link rel="stylesheet" href="./Styles/asidemenu.css">
-  <link rel="stylesheet" href="./sidebar.css">
   <link rel="stylesheet" href="./Styles/listings.css">
+  <link rel="stylesheet" href="./sidebar.css">
   <link rel="stylesheet" href="./Styles/main-cards.css">
-  <link rel="stylesheet" href="./Styles/socialmedia.css">
+  <link rel="stylesheet" href="./Styles/socialmedia.css"> 
+  <link rel="stylesheet" href="./Styles/nav-style.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,16 +28,17 @@
 
 <body>
   <header>
-    <nav class="navbar bg-body-tertiary d-flex flex-column">
+    <nav class="navbar container-fluid bg-body-tertiary d-flex flex-column">
       <!-- ------------LEFT NAV PART ------------ -->
       <div class="container-fluid d-flex">
-<img class="btn burguer__aside__off d-md-none" type="button" data-bs-toggle="offcanvas"
+  
+        <section class="left-navbar__section d-flex justify-content-start">
+          <img class="btn burguer__aside__off d-md-none" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src="./Images/svg0.svg" alt="Menú">
 
-        <section class="left-navbar__section d-flex justify-content-start">
           <button class="home-logo__button border-0 bg-transparent">
             <img
-              class="rounded me-3"
+              class="rounded"
               src="./Images/icon_dev.png"
               alt="Dev To"
               height="38px"
@@ -223,6 +225,8 @@
           </div>
         </div>
       </aside>
+
+
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
           id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
           <div class="offcanvas-header">

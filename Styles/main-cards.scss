@@ -27,7 +27,14 @@
 }
 
 .card__tag-color{
+    padding: 3px;
     color: #000;
+}
+
+.card__tag-color:hover{
+    border: solid .25px #AEB6BF ;
+    border-radius: 6px;
+    background-color: #F4F6F6;
 }
 
 .card__reaction{
@@ -47,8 +54,4 @@
     cursor: pointer;
 }
 
-.card__reaction-text:hover{
-    border-radius: 5px;
-    background-color: #EAEDED;
-    cursor: pointer;
-}
+

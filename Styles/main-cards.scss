@@ -1,15 +1,4 @@
-#resumen {
-    position: relative;
-}
 
-#enlace {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-}
 .card__top-avatar-image{
     width: 27.5px;
     height: 27.5px;
@@ -22,4 +11,44 @@
 .nav-link{
     color: #000;
     font-size: 18px;
+}
+.nav-link:hover{
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.card-title{
+    color: #000;
+    text-decoration: none;
+}
+
+.card-title:hover{
+    color: blue;
+}
+
+.card__tag-color{
+    color: #000;
+}
+
+.card__reaction{
+    border: solid 1px #fff;
+    background-color: #EAEDED;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.card__reactions{
+    padding: 2.5px;
+}
+
+.card__reactions:hover{
+    border-radius: 5px;
+    background-color: #F4F6F6;
+    cursor: pointer;
+}
+
+.card__reaction-text:hover{
+    border-radius: 5px;
+    background-color: #EAEDED;
+    cursor: pointer;
 }

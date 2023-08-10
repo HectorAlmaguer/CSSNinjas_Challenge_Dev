@@ -35,7 +35,7 @@
   }
 
 
-  *, *::before, *::after {
+  .Listings, .Listings::before, .Listings::after {
     box-sizing: border-box;
     padding-bottom: 8px;
 }

@@ -7,6 +7,10 @@
   <title>DEV Community</title>
   <link rel="shortcut icon" href="./Images/icon_dev.png">
   <link rel="stylesheet" href="./Styles/styles.css">
+  <link rel="stylesheet" href="./Styles/asidemenu.css">
+  <link rel="stylesheet" href="./sidebar.css">
+  <link rel="stylesheet" href="./Styles/listings.css">
+  <link rel="stylesheet" href="./Styles/main-cards.css">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,7 +95,9 @@
             </div>
           </ul>
         </div>
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        
+      </aside>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
           id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
           <div class="offcanvas-header">
             <h3 class="offcanvas-title title__burguer" id="offcanvasScrollingLabel">DEV Community</h3>
@@ -134,6 +140,7 @@
                 <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
                     src="./Images/icons/ojos.svg">Terms of Use</a>
               </div>
+
               <!-- ------------Inicia sección de Social Media ------------------- -->
               <div class="list-group list-group-horizontal">
                 <a class="btn btn-outline-primary border-0" href="https://twitter.com/thepracticaldev"
@@ -153,7 +160,6 @@
             <!-- -------------Finaliza sección de Social Media ------------------ -->
           </div>
         </div>
-      </aside>
 
       <main class="card__container col-12 col-md-9 col-lg-6" class=" col-12 col-md-9 col-lg-6">
         <div class="card text-center border-0">
@@ -466,6 +472,41 @@
       </main>
       <!-----------------aside2b-------------------->
       <aside class="d-none col-3 d-lg-block d-xl-block">
+        <div class="card Listings">
+          <div class="card-header d-flex justify-content-between">
+                  <h3 class="d-inline-flex align-items-center">Listings</h3>
+                  <a class="fw-medium fs-s d-inline-flex align-items-center" href="">See all</a>
+          </div>
+          <ul class="list-group list-group-flush">           
+          <li class="list-group-item"><a>
+                  <div>Frontend, leadership and career mentorship</div>
+                  <small class="text-body-secondary d-flex flex-column">mentors</small>
+              </a>
+          <li class="list-group-item">   
+              <a>
+                  <div>Nerd Level Tech</div>
+                  <div class="gray-div">education</div>
+              </a></li>
+          <li class="list-group-item">         
+              <a>
+                  <div>Framework for C</div>
+                  <div class="gray-div">products</div>
+              </a></li>         
+              <a>
+          <li class="list-group-item">
+                  <div>1link.fun 科技周刊 每周分享 10 个有趣的链接</div>
+                  <div class="gray-div">products</div>
+              </a></li>          
+              <a>
+          <li class="list-group-item">
+                  <div>Goto 10 Retro Computing Newsletter</div>
+                  <div class="gray-div">misc</div>
+              </a></li>          
+          <div>
+                  <a class="d-flex justify-content-center align-items-end p-3 fw-medium fs-s w-100">Create a Listing</a>
+          </div>
+          </ul>
+      </div>  
         <div class="card d-none d-lg-block">
           <div class="card-header">
             <h3 class="aside_title">#discuss</h3>
@@ -520,5 +561,4 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 </body>
-
 </html>

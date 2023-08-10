@@ -15,12 +15,18 @@
 .card__anchor-text {
     font-weight: 700;
     cursor:pointer;
-    ;
+    
 }
 
 .card__image { 
     cursor:pointer;
-    padding-bottom: 5px;
+    
+}
+
+.svg__dots:hover {
+    background-color:rgb(243, 239, 239);
+    cursor:pointer;
+    border-radius: 6px;
 }
 
 
@@ -30,4 +36,23 @@
 
 .card-title {
     font-weight: bolder;   
+}
+
+.text-secondary {
+    font-size: small;
+}
+
+.my-tags{
+    margin: 20px 0px 100px 0px
+}
+
+.card__title-tag {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.svg__tag:hover {
+    background-color: rgb(220, 228, 250);
+    cursor:pointer;
+    border-radius: 5px;
 }

@@ -33,3 +33,30 @@
       margin-right: 0.5rem;
     }
   }
+
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    padding-bottom: 8px;
+}
+
+a {
+    cursor: pointer;
+    padding: 16px;
+}
+
+div {
+    display: block;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gray-div {
+    color: gray;
+}

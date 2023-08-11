@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(231, 227, 227);
+}
+
+.description-post {
+  color: black;
+}
+
+.description-post:hover {
+  color: blue;
+}
+
+.dev__header {
+  background-color: white;
+  border-color: transparent;
+}/*# sourceMappingURL=stylesPs.css.map */

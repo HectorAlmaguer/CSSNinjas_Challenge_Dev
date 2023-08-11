@@ -21,131 +21,112 @@
 
 <body>
   <header>
-    <nav class="navbar fixed-top bg-body-tertiary d-flex flex-column">
+    <nav class="navbar fixed-top container-fluid bg-body-tertiary d-flex flex-column">
       <!-- ------------LEFT NAV PART ------------ -->
       <div class="container-fluid d-flex px-5">
-        <img class="btn burguer__aside__off d-md-none" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src="../Images/icons/Hamburguesa.svg"
-          alt="Menú">
-
+  
         <section class="left-navbar__section d-flex justify-content-start">
+          <img class="btn burguer__aside__off d-md-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src="../Images/svg0.svg" alt="Menú">
+
           <button class="home-logo__button border-0 bg-transparent">
-            <a href="../index.html"><img class="rounded me-3" src="../Images/icon_dev.png" alt="Dev To" height="38px"
-                width="45px" /></a>
+            <a href="index.html"><img
+              class="rounded"
+              src="../Images/icon_dev.png"
+              alt="Dev To"
+              height="38px"
+              width="45px"
+            /></a>
           </button>
 
           <div
-            class="navbar-search__container bg-white border border-secondary-emphasis rounded d-none d-sm-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline">
+            class="navbar-search__container bg-white border border-secondary-emphasis rounded d-none d-sm-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline"
+          >
             <form class="d-flex" role="search">
-              <input type="text" class="search-form-control me-2 border-0" placeholder="  Search..." aria-label="Search"
-                aria-label="btnGroup" />
-              <button class="search-icon__button action-nav-icon__button" type="submit">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img"
-                  aria-labelledby="a5ckntzcr0le9czo6j8bpf7av1sfpy5c" class="search-icon">
+              <input
+                type="text"
+                class="search-form-control me-2 border-0"
+                placeholder="  Search..."
+                aria-label="Search"
+                aria-label="btnGroup"
+              />
+              <button
+                class="search-icon__button action-nav-icon__button"
+                type="submit"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  aria-labelledby="a5ckntzcr0le9czo6j8bpf7av1sfpy5c"
+                  class="search-icon"
+                >
                   <title id="a5ckntzcr0le9czo6j8bpf7av1sfpy5c">Search</title>
                   <path
-                    d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
-                  </path>
+                    d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z"
+                  ></path>
                 </svg>
               </button>
             </form>
           </div>
         </section>
 
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-          <div class="offcanvas-header">
-            <h3 class="offcanvas-title title__burguer" id="offcanvasScrollingLabel">DEV Community</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="justify-content-start flex-grow-1 p-0">
-              <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/casa.svg" alt="Home">Home</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/documento.svg" alt="listicon">Listings</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/micro╠üfono.svg" alt="microphoneicon"> Podcasts</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/video.svg" alt="videoicon"> Videos</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/etiqueta.svg" alt="tagicon"> Tags</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/foco.svg" alt="faqicon"> FAQ</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/compras.svg" alt="shopicon"> Forem Shop</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/corazon.svg" alt="hearticon"> Advertise on DEV</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/dev.svg" alt="devicon"> About</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/trompetilla.svg" alt="soundicon">Contact</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/libro.svg" alt="bookicon"> Guides</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/pensando.svg" alt="faceicon"> Software comparisons</a>
-              </div>
-              <div class="list-group">
-                <strong class="list-group-item text-dark border-0">Other</strong>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/pulgar.svg">Code of Conduct</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/cara-lentes.svg">Privacy Policy</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
-                    src="../Images/icons/ojos.svg">Terms of Use</a>
-              </div>
-
-              <!-- ------------Inicia sección de Social Media ------------------- -->
-              <div class="list-group list-group-horizontal">
-                <a class="btn btn-outline-primary border-0" href="https://twitter.com/thepracticaldev"
-                  role="button"><img src="../Images/icons/twitter black.svg" style="width: 100%;"></a>
-                <a class="btn btn-outline-primary border-0" href="https://www.facebook.com/thepracticaldev"
-                  role="button"><img src="../Images/icons/facebook.svg" style="width: 100%;"></a>
-                <a class="btn btn-outline-primary border-0" href="https://github.com/forem" role="button"><img
-                    src="../Images/icons/git.svg" style="width: 100%;"></a>
-                <a class="btn btn-outline-primary border-0" href="https://www.instagram.com/thepracticaldev/"
-                  role="button"><img src="../Images/icons/insta.svg" style="width: 100%;"></a>
-                <a class="btn btn-outline-primary border-0" href="https://www.twitch.tv/thepracticaldev"
-                  role="button"><img src="../Images/icons/svg25.svg" style="width: 100%;"></a>
-                <a class="btn btn-outline-primary border-0" href="https://fosstodon.org/@thepracticaldev"
-                  role="button"><img src="../Images/icons/m.svg" style="width: 100%;"></a>
-              </div>
-            </ul>
-            <!-- -------------Finaliza sección de Social Media ------------------ -->
-          </div>
-        </div>
         <!-- ------------RIGHT NAV PART ------------ -->
 
-        <section class="right-navbar__section flex-d flex-column justify-content-start">
+        <section
+          class="right-navbar__section flex-d flex-column justify-content-start"
+        >
           <button
             class="search-icon-right__button action-nav-icon__button border-0 d-sm-inline d-md-none d-lg-none d-xl-none d-xxl-none"
-            type="submit">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img"
-              aria-labelledby="a5ckntzcr0le9czo6j8bpf7av1sfpy5c" class="search-icon">
+            type="submit"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              role="img"
+              aria-labelledby="a5ckntzcr0le9czo6j8bpf7av1sfpy5c"
+              class="search-icon"
+            >
               <!--action-notification__icon-->
               <title id="a5ckntzcr0le9czo6j8bpf7av1sfpy5c">Search</title>
               <path
-                d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
-              </path>
+                d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z"
+              ></path>
             </svg>
           </button>
-          <button type="button"
-            class="create-post__button action-create-post__button btn-outline-primary d-none d-sm-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline">
+          <button
+            type="button"
+            class="create-post__button action-create-post__button btn-outline-primary d-none d-sm-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline"
+          >
             Create Post
           </button>
-          <button class="notification-icon__button action-nav-icon__button" type="submit">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img"
-              aria-labelledby="ailt444i8ov0hrk8hwcfn8t1zbztk86r" class="notification-icon">
+          <button
+            class="notification-icon__button action-nav-icon__button"
+            type="submit"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              role="img"
+              aria-labelledby="ailt444i8ov0hrk8hwcfn8t1zbztk86r"
+              class="notification-icon"
+            >
               <title id="ailt444i8ov0hrk8hwcfn8t1zbztk86r">
                 Notifications
               </title>
-              <path d="M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 10-12 0v7h12zm-9 4h6v2H9v-2z"></path>
+              <path
+                d="M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 10-12 0v7h12zm-9 4h6v2H9v-2z"
+              ></path>
             </svg>
           </button>
           <button class="profile-image__button" type="submit">
-            <img src="../Images/profile-image.jpg" alt="profile-image"
-              class="profile-picture__image action-profile-picture__image rounded-circle" width="35px" height="35px" />
+            <img
+              src="../Images/profile-image.jpg"
+              alt="profile-image"
+              class="profile-picture__image action-profile-picture__image rounded-circle"
+              width="35px"
+              height="35px"
+            />
           </button>
         </section>
       </div>
@@ -154,7 +135,7 @@
 
   <div class="container-fluid mt-3">
     <div class="row">
-      <aside class="col-1 d-none d-md-block min-vh-100 d-flex align-items-center align-items-center">
+      <aside class="col-1 d-none d-md-block min-vh-100 d-flex align-items-center align-items-center mt-5">
         <!-- ---------------Inicia Aside Izquierdo Section B---------------   -->
         <div class="list-group mt-3 d-flex align-items-center align-items-center container_interactions">
           <div class="aside_social_reactions">
@@ -196,7 +177,7 @@
         <!-- ---------------Inicia Aside Izquierdo Section B--------------- -->
       </aside>
 
-      <main class="post__container col-12 col-md-9 col-lg-7">
+      <main class="post__container col-12 col-md-9 col-lg-7 mt-5">
         <div class="card">
           <img
             src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fpracticaldev%2Fimage%2Ffetch%2Fs--1SWy2Lm6--%2Fc_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_500%2Cq_auto%2Cw_1000%2Fhttps%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhe9jeudt1gebya1cahz3.jpg"
@@ -359,7 +340,7 @@
       </main>
       <!-- ______________ INICIA ASIDE DERECHO DEL POST---------------------- -->
 
-      <aside class="AsideRigth-post__container col-3 d-none d-lg-block p-0">
+      <aside class="AsideRigth-post__container col-3 d-none d-lg-block p-0 mt-5">
         <div class="Photo__Container card">
           <div class="card-header bg-secondary" style="height: 35px"></div>
           <div class="card-body text-center">

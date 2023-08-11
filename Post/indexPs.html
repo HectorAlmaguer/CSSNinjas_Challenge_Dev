@@ -25,7 +25,8 @@
       <!-- ------------LEFT NAV PART ------------ -->
       <div class="container-fluid d-flex px-5">
         <img class="btn burguer__aside__off d-md-none" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src="./Images/svg0.svg" alt="Menú">
+          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src="../Images/icons/Hamburguesa.svg"
+          alt="Menú">
 
         <section class="left-navbar__section d-flex justify-content-start">
           <button class="home-logo__button border-0 bg-transparent">
@@ -51,6 +52,69 @@
           </div>
         </section>
 
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title title__burguer" id="offcanvasScrollingLabel">DEV Community</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="justify-content-start flex-grow-1 p-0">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/casa.svg" alt="Home">Home</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/documento.svg" alt="listicon">Listings</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/micro╠üfono.svg" alt="microphoneicon"> Podcasts</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/video.svg" alt="videoicon"> Videos</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/etiqueta.svg" alt="tagicon"> Tags</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/foco.svg" alt="faqicon"> FAQ</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/compras.svg" alt="shopicon"> Forem Shop</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/corazon.svg" alt="hearticon"> Advertise on DEV</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/dev.svg" alt="devicon"> About</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/trompetilla.svg" alt="soundicon">Contact</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/libro.svg" alt="bookicon"> Guides</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/pensando.svg" alt="faceicon"> Software comparisons</a>
+              </div>
+              <div class="list-group">
+                <strong class="list-group-item text-dark border-0">Other</strong>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/pulgar.svg">Code of Conduct</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/cara-lentes.svg">Privacy Policy</a>
+                <a href="#" class="list-group-item list-group-item-action border-0"><img class="icons__list__burgueroff"
+                    src="../Images/icons/ojos.svg">Terms of Use</a>
+              </div>
+
+              <!-- ------------Inicia sección de Social Media ------------------- -->
+              <div class="list-group list-group-horizontal">
+                <a class="btn btn-outline-primary border-0" href="https://twitter.com/thepracticaldev"
+                  role="button"><img src="../Images/icons/twitter black.svg" style="width: 100%;"></a>
+                <a class="btn btn-outline-primary border-0" href="https://www.facebook.com/thepracticaldev"
+                  role="button"><img src="../Images/icons/facebook.svg" style="width: 100%;"></a>
+                <a class="btn btn-outline-primary border-0" href="https://github.com/forem" role="button"><img
+                    src="../Images/icons/git.svg" style="width: 100%;"></a>
+                <a class="btn btn-outline-primary border-0" href="https://www.instagram.com/thepracticaldev/"
+                  role="button"><img src="../Images/icons/insta.svg" style="width: 100%;"></a>
+                <a class="btn btn-outline-primary border-0" href="https://www.twitch.tv/thepracticaldev"
+                  role="button"><img src="../Images/icons/svg25.svg" style="width: 100%;"></a>
+                <a class="btn btn-outline-primary border-0" href="https://fosstodon.org/@thepracticaldev"
+                  role="button"><img src="../Images/icons/m.svg" style="width: 100%;"></a>
+              </div>
+            </ul>
+            <!-- -------------Finaliza sección de Social Media ------------------ -->
+          </div>
+        </div>
         <!-- ------------RIGHT NAV PART ------------ -->
 
         <section class="right-navbar__section flex-d flex-column justify-content-start">
@@ -121,7 +185,7 @@
 
                 <!--Aqui acaba-->
               </div>
-              ​
+
             </div>
             <img src="/Images/chat-bubble_3114810.png" alt="" class="icon_white">
             <p>18</p>
@@ -439,9 +503,13 @@
   <footer>
     <div class="col-12 item-grey card border-0 mt-2 text-center">
       <div class="card-body">
-        <p class="card-text"><a class="card__anchor-text anchor-decoration">DEV Community</a> A constructive and inclusive social network for software developers. With you every step of your journey.</p>
-        <p class="card-text">Built on <a class="anchor-decoration" href="">Forem</a> — the <a class="anchor-decoration" href="">open source</a> software that powers <a class="anchor-decoration" href="">DEV</a> and other inclusive communities.</p>
-        <p class="class">Made with love and <a class="anchor-decoration" href="">Ruby on Rails.</a> DEV Community © 2016 - 2023.</p>
+        <p class="card-text"><a class="card__anchor-text anchor-decoration">DEV Community</a> A constructive and
+          inclusive social network for software developers. With you every step of your journey.</p>
+        <p class="card-text">Built on <a class="anchor-decoration" href="">Forem</a> — the <a class="anchor-decoration"
+            href="">open source</a> software that powers <a class="anchor-decoration" href="">DEV</a> and other
+          inclusive communities.</p>
+        <p class="class">Made with love and <a class="anchor-decoration" href="">Ruby on Rails.</a> DEV Community © 2016
+          - 2023.</p>
       </div>
     </div>
   </footer>
@@ -471,7 +539,7 @@
     </div>
   </div>
 
-  
+
 </body>
 
 </html>

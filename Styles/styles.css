@@ -402,7 +402,6 @@ header {
 
 .partners__container {
   background-color: white;
-  width: 535px;
   height: 40px;
   flex-direction: column;
   border-radius: 10px;
@@ -460,7 +459,6 @@ header {
 .reactions_box-raw-2 {
   display: flex;
   justify-content: space-between;
-  width: 400px;
 }
 
 .div-imagen_and_text {
